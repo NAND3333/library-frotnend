@@ -61,7 +61,7 @@ function MemberDashboard() {
         >
           <div className="dashboard-logo">
             <LibraryBooksIcon style={{ fontSize: 50 }} />
-            <p className="logo-name">LCMS</p>
+            <p className="logo-name">Student</p>
           </div>
           <a
             href="#profile@member"
@@ -180,43 +180,6 @@ function MemberDashboard() {
                     <span style={{ fontSize: "16px" }}>
                       {memberDetails?.address}
                     </span>
-                  </p>
-                </div>
-              </div>
-              <div className="specific-right">
-                <div className="specific-right-top">
-                  <p className="specific-right-topic">
-                    <b>Points</b>
-                  </p>
-                  <p
-                    style={{
-                      fontSize: "25px",
-                      fontWeight: "500",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      marginTop: "15px",
-                    }}
-                  >
-                    540
-                  </p>
-                </div>
-                <div className="dashboard-title-line"></div>
-                <div className="specific-right-bottom">
-                  <p className="specific-right-topic">
-                    <b>Rank</b>
-                  </p>
-                  <p
-                    style={{
-                      fontSize: "25px",
-                      fontWeight: "500",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      marginTop: "15px",
-                    }}
-                  >
-                    {memberDetails?.points}
                   </p>
                 </div>
               </div>
