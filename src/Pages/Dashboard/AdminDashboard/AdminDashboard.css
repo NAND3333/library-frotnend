@@ -23,7 +23,7 @@
 /* Sidebar */
 
 .dashboard-options {
-  background-color: rgb(24, 33, 62);
+  background-color: black;
   color: wheat;
   display: flex;
   flex-direction: column;

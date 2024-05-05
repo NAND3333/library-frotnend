@@ -39,13 +39,6 @@ function Signin() {
                 <form onSubmit={handleForm}>
                     <h2 className="signin-title"> Log in</h2>
                     <p className="line"></p>
-                    <div className="persontype-question">
-                        <p>Are you a Staff member ?</p>
-                        <Switch
-                            onChange={() => setIsStudent(!isStudent)}
-                            color="primary"
-                        />
-                    </div>
                     <div className="error-message"><p>{error}</p></div>
                     <div className="signin-fields">
                         <label htmlFor={isStudent?"admissionId":"employeeId"}> <b>{isStudent?"Admission ID":"Employee ID"}</b></label>
